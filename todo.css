@@ -1,0 +1,47 @@
+body{
+    background-color:antiquewhite;
+    padding:40px ;
+    margin: 0;
+    font-family: fantasy;
+    font: bold;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.todo-container{
+    margin: 40px;
+padding: 30px;
+max-width: 450px;
+background-color: cyan;
+font-style: oblique;
+
+}
+h1{
+    text-align: center;
+}
+ul{
+    padding: 0%;
+}
+input{
+    padding: 20px;
+    margin: 15px 8px 15px 0px;
+}
+li{
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+.delete button{
+    background-color: chartreuse;
+    color:black;
+    border: radius 5px;
+    padding:10px 15px;
+font-weight: bolder;
+}
+.add-button{
+background-color: cornflowerblue;
+color: cornsilk;
+padding: 15px;
+font-weight: bolder;
+}
